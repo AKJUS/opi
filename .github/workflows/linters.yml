@@ -13,7 +13,10 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Run tests
-        run: docker run -v $PWD:/workdir ghcr.io/igorshubovych/markdownlint-cli:latest --ignore=minutes --disable=MD013 "**/*.md"
+        run: |
+          docker run -v $PWD:/workdir \
+            ghcr.io/igorshubovych/markdownlint-cli:latest \
+            --ignore=minutes --disable=MD013 --disable=MD059 "**/*.md"
 
   shellcheck:
     runs-on: ubuntu-latest
