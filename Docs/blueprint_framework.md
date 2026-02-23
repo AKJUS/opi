@@ -2,7 +2,8 @@
 
 Framework & FAQ
 
-Prepared for the OPI Technical Steering Committee
+Prepared by WorldTech IT for the OPI Technical Steering Committee.\
+Josh Brooks, Chief Solutions Architect  |  josh@worldtechit.com
 
 ## What is an OPI Blueprint (Intent and Goals)?
 
@@ -35,7 +36,3 @@ Blueprints have both a physical and digital home: **OPI Lab (Physical/Virtual).*
 ## Does OPI have a preference for one Blueprint over the other?
 
 OPI does not mandate a ranked priority list, but there are practical factors that make some Blueprints more strategically valuable than others: **Multi-vendor interoperability.** Blueprints that demonstrate OPI working across multiple member vendors’ hardware and software (e.g., Dell chassis \+ Intel IPU \+ F5 BIG-IP Next \+ Red Hat OpenShift) are highly valued because they reinforce OPI’s core value proposition of vendor neutrality. **Actively maintained components.** The TSC is currently working through a source audit and supportability assessment to understand which OPI components are actively maintained and on what hardware. Blueprints built on well-supported components with clear community or vendor backing will be prioritized. **Customer demand signal.** Blueprints that address use cases with known enterprise demand—such as zero-touch provisioning, multi-tenant isolation on IPU/DPU, or Kubernetes-native network function offload—will naturally get more traction and support. **Partner commitment.** A Blueprint with a committed contributing partner who will invest engineering time, maintain the documentation, and stand behind the solution as a services provider carries more weight than an idea without resourcing. *Bottom line: the best Blueprint is one that solves a real customer problem, uses actively maintained OPI components on validated hardware, involves multiple OPI member vendors, and has a committed partner behind it ready to support adoption.*
-
-Prepared by WorldTech IT
-
-Josh Brooks, Chief Solutions Architect  |  josh@worldtechit.com
